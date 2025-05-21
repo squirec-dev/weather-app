@@ -1,43 +1,23 @@
-# Next.js + Jest
+## Weather App
 
-This example shows how to configure Jest to work with Next.js.
+## Quick Start
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript. This example also shows how to use Jest with the App Router and React Server Components.
+| Command      | Description |
+| ----------- | ----------- |
+| npm dev    | Run development server |
+| npm run test   | Run Jest        |
+| npm run cypress | Run E2E test   |
 
-> **Note:** Since tests can be co-located alongside other files inside the App Router, we have placed those tests in `app/` to demonstrate this behavior (which is different than `pages/`). You can still place all tests in `__tests__` if you prefer.
+## About
 
-## Deploy your own
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and written with typescript and tailwindcss.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-jest&project-name=with-jest&repository-name=with-jest)
 
-## How to Use
+## Getting Started
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-jest with-jest-app
-```
-
-```bash
-yarn create next-app --example with-jest with-jest-app
-```
-
-```bash
-pnpm create next-app --example with-jest with-jest-app
-```
-
-## Running Tests
-
-```bash
-npm test
-```
-
-```bash
-yarn test
-```
-
-```bash
-pnpm test
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+1. Clone repo and install packages
+`npm i`
+2. Duplicate the .env.example file, renaming it to `.env` and setting the variables
+3. Run the development server, use `-p {PORT}` if you want to run the app on a different port
+`npm run dev` | `npm run dev -p 3001`
+4. Open your browser at [http://localhost:3000](http://localhost:3000) (update port if necessary)
