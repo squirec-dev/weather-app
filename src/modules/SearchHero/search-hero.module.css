@@ -1,0 +1,32 @@
+@utility hero {
+  align-items: center;
+  background-color: #8ad0ce;
+  color: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+  position: relative;
+  transition: height .25s linear;
+  border-bottom: 1px solid #6ea6a4;
+}
+
+.hero--collapsed {
+  @apply hero;
+  height: 150px;
+}
+
+.hero--expanded {
+  @apply hero;
+  height: 50vh;
+}
+
+.hero__error {
+  align-items: center;
+  background: #fbfbfb;
+  bottom: 8px;
+  color: #ff5454;
+  display: flex;
+  font-size: 1.5rem;
+  padding: 8px;
+  position: absolute;
+}

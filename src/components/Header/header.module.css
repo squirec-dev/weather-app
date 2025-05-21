@@ -1,0 +1,9 @@
+@reference "../../app/globals.css";
+
+.logo {
+  @apply items-center flex text-base justify-start;
+}
+
+.logo__icon {
+  @apply mr-2;
+}

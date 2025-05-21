@@ -1,0 +1,9 @@
+node_modules
+.circleci
+.github
+.next
+.storybook
+.swc
+.vscode
+playwright-report
+test-results

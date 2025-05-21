@@ -1,0 +1,13 @@
+@reference "../../app/globals.css";
+
+.footer__author {
+  @apply items-center flex justify-end;
+}
+
+.footer__author-icon {
+  @apply mr-2;
+}
+
+.footer__author-spacer {
+  @apply my-0 mx-2;
+}

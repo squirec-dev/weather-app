@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=REM:ital@1&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-transparent: "transparent";
+  --color-current: "currentColor";
+  --color-parisDaisy: "#ffe963";
+  --color-bittersweet: "#ff5454";
+  --color-monteCarlo: "#8ad0ce";
+  --color-seaGreen: "#6ea6a4";
+  --color-riverBed: "#4b595e";
+  --color-shark: "#1e2325";
+  --color-marble: "#fbfbfb";
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body, .root {
+  height: 100%;
+  margin: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+body {
+  background: #fbfbfb;
+  color: #4b595e;
+  display: grid;
+  font-size: 16px;
+  grid-template-rows: auto 1fr auto;
+  margin: 0;
+}
+
+header {
+  background-color: #6ea6a4;
+  color: #1e2325;
+  font-family: "REM", sans-serif;
+}
+
+main {
+  background: #fbfbfb;
+}
+
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 16px 32px;
+}
+
+footer {
+  background-color: #4b595e;
+  color: #fbfbfb;
+  font-family: "REM", sans-serif;
+}
+
+a {
+  color: #ffe963;
+  text-decoration: none;
+  border-bottom: 2px dashed transparent;
+
+  &:hover {
+	border-color: #ffe963;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+  li {
+    align-items: center;
+    display: flex;
+	  margin-bottom: 16px;
+  }
+
+.highlight-text {
+  color: #ff5454;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0 8px;
+}
